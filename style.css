@@ -1,0 +1,53 @@
+html {
+  min-width: 700px;
+}
+
+.container {
+  margin-top: 20px;
+  }
+
+.row {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.table-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+
+#_grid table {
+  border-collapse: separate;
+  border-spacing: 0;
+  cursor:crosshair;
+  margin:auto;
+}
+
+#_grid table tr td {
+  background-color: white;
+  padding:4px;
+  border: 1px solid #E1E1E1;
+  cursor:pointer;
+}
+
+#_grid table tr td:hover,
+#_grid table tr td.on:hover {
+  background-color: #c3c1ff;
+  padding:4px;
+}
+
+#_grid table tr td.on {
+  background-color: #a9a9a9;
+  padding:4px;
+}
+
+#_output {
+  min-height:200px;
+}
+
+.footer {
+  text-align: center;
+  margin-top:10px;
+}
