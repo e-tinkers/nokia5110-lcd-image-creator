@@ -4,7 +4,7 @@ var matrix;
 function updateCode() {
 	document.getElementById('_output').style.display = 'block';
 	var bytes = generateByteArray();
-	var output = "unsigned char logo[504] =\n{\n" + bytes + "\n};"
+	var output = "const char logo[504] PROGMEM =\n{\n" + bytes + "\n};"
 	document.getElementById('_output').innerHTML = output;
 }
 
